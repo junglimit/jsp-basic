@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d99151ad-d6bf-467d-9efb-cb7a4e59df85" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap01/BasicServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap02/DancerListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap02/DancerRegisterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap02/DancerSaveProcessServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/entity/Dancer.java" afterDir="false" />
+    <list default="true" id="d99151ad-d6bf-467d-9efb-cb7a4e59df85" name="변경" comment="servlet 으로 어플만들기">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/chap03/dancer/process.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/chap03/dancer/register.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/greeting.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +26,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "junglimit"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="5d315652-528b-4e57-b1f5-3bbb181df6cd" />
+        <option name="url" value="https://github.com/junglimit/jsp-basic.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -37,23 +50,25 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.jspbasic [clean].executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/jeongjaehan/Desktop/Developer/jspbasic/src/main/java/com/jsp/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Maven.jspbasic [clean].executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "js.last.introduce.type": "CONST",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "/Users/jeongjaehan/Desktop/Developer/jspbasic/src/main/java/com/jsp/Main.java",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.Main.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -70,11 +85,24 @@
       <option name="presentableId" value="Default" />
       <updated>1715152639980</updated>
       <workItem from="1715152642432" duration="2253000" />
-      <workItem from="1715220156076" duration="7214000" />
+      <workItem from="1715220156076" duration="10993000" />
     </task>
+    <task id="LOCAL-00001" summary="servlet 으로 어플만들기">
+      <option name="closed" value="true" />
+      <created>1715236875971</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715236875971</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="servlet 으로 어플만들기" />
+    <option name="LAST_COMMIT_MESSAGE" value="servlet 으로 어플만들기" />
   </component>
 </project>
