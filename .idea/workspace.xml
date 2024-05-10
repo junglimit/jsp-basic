@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d99151ad-d6bf-467d-9efb-cb7a4e59df85" name="변경" comment="servlet 으로 어플만들기">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/chap03/dancer/process.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/chap03/dancer/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/greeting.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="d99151ad-d6bf-467d-9efb-cb7a4e59df85" name="변경" comment="jstl">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap05/JdbcBasic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap05/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap05/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/repository/DancerJdbcRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/jstl-example.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/AddNewDancerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/AddNewDancerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/chap04/dancer-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/chap04/dancer-list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="jsp template" />
         <option value="Class" />
       </list>
     </option>
@@ -26,12 +32,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "junglimit"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;junglimit&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -56,19 +62,59 @@
     "Maven.jspbasic [clean].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "js.last.introduce.type": "CONST",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/jeongjaehan/Desktop/Developer/jspbasic/src/main/webapp/WEB-INF/chap04",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/jeongjaehan/Desktop/Developer/jspbasic/src/main/java/com/jsp/Main.java",
+    "settings.editor.selected.configurable": "fileTemplates",
     "vue.rearranger.settings.migration": "true",
-    "애플리케이션.Main.executor": "Run"
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.Test.executor": "Run"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mariadb"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/chap04" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jsp.repository" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.jsp.chap05.Test" />
+      <module name="jspbasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jsp.chap05.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.Test" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -85,7 +131,10 @@
       <option name="presentableId" value="Default" />
       <updated>1715152639980</updated>
       <workItem from="1715152642432" duration="2253000" />
-      <workItem from="1715220156076" duration="10993000" />
+      <workItem from="1715220156076" duration="14926000" />
+      <workItem from="1715303315281" duration="490000" />
+      <workItem from="1715303813074" duration="5932000" />
+      <workItem from="1715309910641" duration="11952000" />
     </task>
     <task id="LOCAL-00001" summary="servlet 으로 어플만들기">
       <option name="closed" value="true" />
@@ -95,7 +144,31 @@
       <option name="project" value="LOCAL" />
       <updated>1715236875971</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="JSP로 같은 어플 만들기">
+      <option name="closed" value="true" />
+      <created>1715240745534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715240745534</updated>
+    </task>
+    <task id="LOCAL-00003" summary="mvc architecture part1">
+      <option name="closed" value="true" />
+      <created>1715306357930</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715306357930</updated>
+    </task>
+    <task id="LOCAL-00004" summary="jstl">
+      <option name="closed" value="true" />
+      <created>1715337265374</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715337265374</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +176,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="servlet 으로 어플만들기" />
-    <option name="LAST_COMMIT_MESSAGE" value="servlet 으로 어플만들기" />
+    <MESSAGE value="JSP로 같은 어플 만들기" />
+    <MESSAGE value="mvc architecture part1" />
+    <MESSAGE value="jstl" />
+    <option name="LAST_COMMIT_MESSAGE" value="jstl" />
   </component>
 </project>
