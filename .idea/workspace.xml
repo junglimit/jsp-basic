@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d99151ad-d6bf-467d-9efb-cb7a4e59df85" name="변경" comment="Web에 JDBC 적용하기">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/DancerRemoveSelvlet.java" afterDir="false" />
+    <list default="true" id="d99151ad-d6bf-467d-9efb-cb7a4e59df85" name="변경" comment="DELETE 기능 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/entity/Dancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/entity/Dancer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/repository/DancerJdbcRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/repository/DancerJdbcRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/chap04/dancer-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/chap04/dancer-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/DancerRemoveSelvlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/DancerRemoveSelvlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +125,7 @@
       <workItem from="1715220156076" duration="14926000" />
       <workItem from="1715303315281" duration="490000" />
       <workItem from="1715303813074" duration="5932000" />
-      <workItem from="1715309910641" duration="16527000" />
+      <workItem from="1715309910641" duration="18471000" />
     </task>
     <task id="LOCAL-00001" summary="servlet 으로 어플만들기">
       <option name="closed" value="true" />
@@ -170,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715343460113</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="DELETE 기능 추가">
+      <option name="closed" value="true" />
+      <created>1715568684193</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715568684193</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +187,7 @@
     <MESSAGE value="mvc architecture part1" />
     <MESSAGE value="jstl" />
     <MESSAGE value="Web에 JDBC 적용하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="Web에 JDBC 적용하기" />
+    <MESSAGE value="DELETE 기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="DELETE 기능 추가" />
   </component>
 </project>
