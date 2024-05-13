@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d99151ad-d6bf-467d-9efb-cb7a4e59df85" name="변경" comment="jstl">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap05/JdbcBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap05/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap05/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/repository/DancerJdbcRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/jstl-example.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="d99151ad-d6bf-467d-9efb-cb7a4e59df85" name="변경" comment="Web에 JDBC 적용하기">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/DancerRemoveSelvlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/AddNewDancerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/chap04/AddNewDancerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/entity/Dancer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/entity/Dancer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jsp/repository/DancerJdbcRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jsp/repository/DancerJdbcRepo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/chap04/dancer-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/chap04/dancer-list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +57,6 @@
     "Maven.jspbasic [clean].executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "js.last.introduce.type": "CONST",
     "kotlin-language-version-configured": "true",
@@ -134,7 +128,7 @@
       <workItem from="1715220156076" duration="14926000" />
       <workItem from="1715303315281" duration="490000" />
       <workItem from="1715303813074" duration="5932000" />
-      <workItem from="1715309910641" duration="11952000" />
+      <workItem from="1715309910641" duration="16527000" />
     </task>
     <task id="LOCAL-00001" summary="servlet 으로 어플만들기">
       <option name="closed" value="true" />
@@ -168,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715337265374</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Web에 JDBC 적용하기">
+      <option name="closed" value="true" />
+      <created>1715343460113</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715343460113</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,6 +181,7 @@
     <MESSAGE value="JSP로 같은 어플 만들기" />
     <MESSAGE value="mvc architecture part1" />
     <MESSAGE value="jstl" />
-    <option name="LAST_COMMIT_MESSAGE" value="jstl" />
+    <MESSAGE value="Web에 JDBC 적용하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="Web에 JDBC 적용하기" />
   </component>
 </project>
