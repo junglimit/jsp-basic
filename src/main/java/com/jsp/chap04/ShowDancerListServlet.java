@@ -3,6 +3,7 @@ package com.jsp.chap04;
 import com.jsp.entity.Dancer;
 import com.jsp.repository.DancerJdbcRepo;
 import com.jsp.repository.DancerMemoryRepo;
+import com.jsp.repository.DancerRepository;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -17,8 +18,14 @@ import java.util.List;
 //       HTML 을 찾아서 forwarding
 @WebServlet("/chap04/show-list")
 public class ShowDancerListServlet extends HttpServlet {
+//    private DancerMemoryRepo repo = DancerMemoryRepo.getInstance();
+//    private DancerJdbcRepo repo = DancerJdbcRepo.getInstance();
 
-    private DancerJdbcRepo repo = DancerJdbcRepo.getInstance();
+    private DancerRepository repo;
+
+    public ShowDancerListServlet(DancerRepository repo) {
+        this.repo = repo;
+    }
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
